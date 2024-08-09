@@ -16,7 +16,7 @@ __date__ = '09/08/2024'
 
 """
 
-class Beautiful:
+class BeautifulPHPCode:
   def act.in(text):
     print("> Formatting code.. ", end="")
     data = {
