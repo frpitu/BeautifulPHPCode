@@ -3,19 +3,6 @@ __author__ = 'frpitu'
 __version__ = '1.0'
 __date__ = '09/08/2024'
 
-"""
-
-      __            _ 
-    / _|_ __ _ __ (_) |_ _   
-   | |_| '__| '_ \| | __| | | |
-   |  _| |  | |_) | | |_| |_| |
-   |_| |_|  | .__/|_|\__|\__,_|
-            |_|
- * Copyrigth frpitu 2024 todos os direitos reservados
- * O projeto tem a lincensa GPL 2.0, caso você queira usar qualquer código está disponivel
-
-"""
-
 import requests
 
 class BeautifulPHPCode:
