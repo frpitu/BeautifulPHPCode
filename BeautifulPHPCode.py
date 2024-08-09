@@ -17,7 +17,7 @@ __date__ = '09/08/2024'
 """
 
 class BeautifulPHPCode:
-  def act.in(text):
+  def transform(text):
     print("> Formatting code.. ", end="")
     data = {
       'data': self.source, 'indentation_style': 'k&r',
