@@ -23,7 +23,7 @@ class BeautifulPHPCode:
   def transform(text):
     print("> Formatting code.. ", end="")
     data = {
-      'data': self.source, 'indentation_style': 'k&r',
+      'data': text, 'indentation_style': 'k&r',
       'indent_with': 'spaces', 'indentation_size': '4',
       'ArrayNested': 'ArrayNested', 'EqualsAlign': '',
       'Fluent': 'Fluent', 'KeepEmptyLines': 'KeepEmptyLines',
