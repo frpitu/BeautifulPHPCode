@@ -16,6 +16,8 @@ __date__ = '09/08/2024'
 
 """
 
+import requests
+
 class BeautifulPHPCode:
   def transform(text):
     print("> Formatting code.. ", end="")
