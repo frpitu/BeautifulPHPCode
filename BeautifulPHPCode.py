@@ -19,6 +19,7 @@ __date__ = '09/08/2024'
 import requests
 
 class BeautifulPHPCode:
+      
   def transform(text):
     print("> Formatting code.. ", end="")
     data = {
@@ -30,7 +31,7 @@ class BeautifulPHPCode:
     }
       
     try: 
-      self.source = requests.post('https://beautifytools.com/pb.php', data=data).text
+      text = requests.post('https://beautifytools.com/pb.php', data=data).text
       print("done")
     except:
-      print("\n[+] there was an error formatting... using original")
+      print("> There was an error formatting... using original")
